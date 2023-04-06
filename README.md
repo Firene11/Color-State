@@ -1,14 +1,14 @@
 # Color-State
 This Odin Color State Web Page was created for myself to practise using HTML, CSS, and FLEXBOX.
 
-#Installation
+# Installation
 N/A
 
-#Usage
+# Usage
 TBD
 
-#Credits
+# Credits
 N/A
 
-#License
+# License
 MIT
