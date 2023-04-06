@@ -1,0 +1,30 @@
+/*stylesheet*/
+
+html, body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.header-links, .hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
