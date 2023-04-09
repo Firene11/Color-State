@@ -3,7 +3,8 @@
 html, body {
     background-image: url(background.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:scroll;
+    background-position: 0% 15%;
     height: 100%;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +14,7 @@ html, body {
 }
 
 .header {
-    background-color: #1f2937c4;
+    background-color: #1f2937a1;
     display: flex;
     flex-direction: column;
     padding: 20px 120px 20px;
@@ -92,3 +93,145 @@ a {
     border-radius: 10px;
 }
 
+.mood-header {
+    color: #1f2937;
+    background-color: #f9faf8b0;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px;
+    text-align: center;
+}
+
+.mood-container {
+    background-color: #f9faf8b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 16px;}
+
+#red {
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#blue {
+    background-color: blue;
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#green {
+    background-color: green;
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btext {
+    color: #1f2937;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    width: 180px;
+}
+
+.quote-box {
+    color: white;
+    background-color: #efe7eb13;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;  
+    padding: 120px;
+}
+
+.quote-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-style: italic;
+}
+
+.credit-text {
+    color: white;
+    text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+    padding: 72px;
+}
+
+#action-box {
+    display: flex;
+    justify-content:space-between;
+    gap: 140px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 60px 140px 60px;
+    border-radius: 10px;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    height: 36px;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    border-style: solid;
+}
+
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px;
+}
